@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Tools | Convert image to docs file</title>
+    <link rel="stylesheet" href="src/assets/fonts/SofiaPro/stylesheet.css">
+    <link rel="stylesheet" href="src/assets/icons/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Logo -->
+        <div class="logo bi-stack"></div>
+        <!-- Menu / Option -->
+        <div class="menu-option">
+            <div class="option option-active">OCR</div>
+            <div class="option">Convert</div>
+            <div class="option">Compress</div>
+            <div class="option">Split / Merge</div>
+        </div>
+        <!-- Welcome message -->
+        <div class="welcome-message">Welcome to OCR Tools</div>
+    </header>
+    
+    <!-- Page content Section -->
+    <section class="page-content">
+        <!-- Info option -->
+        <div class="info-option">Convert your images into editable text documents.</div>
+
+        <!-- Execution Panel -->
+        <div class="execution-panel">
+            <!-- Main panel for ocr option -->
+            <div class="ocr-panel">
+                <!-- Select Image -->
+                <div class="upload-image-section">
+                    <img id="img-selected-preview" src="" alt="">
+                    <input  type="file" name="upload-image" id="upload-image" accept=".jpg, .jpeg, .png">
+                    <label class="upload-image-btn" for="upload-image"> <span class="bi-upload"></span> Upload image</label>
+                </div>
+                <!-- Uploading Status Bar -->
+                <div class="upload-status-bar">
+                    <!-- Progress bar -->
+                    <div class="upload-progress-bar"></div>
+                </div>
+                <!-- Panel to display text from image -->
+                <div class="preview-convert">
+                    <!-- Header who contain download options -->
+                    <div class="preview-convert-header">
+                        <div class="download-option"><span class="bi-file-earmark-word-fill"></span>Download .docx</div>
+                        <div class="download-option"><span class="bi-file-earmark-text-fill"></span> Download .txt</div>
+                    </div>
+                    <!-- Preview of text converted -->
+                    <div class="text-converted">Nothing to show. Start by uploading an image.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <!-- Author Name -->
+        <div class="author-name">by nathan.js</div>
+        <!-- Social Media icon -->
+
+        <!-- Linkedin -->
+        <a class="social-media bi-linkedin"></a> 
+
+        <!-- Github -->
+        <a class="social-media bi-github"></a>
+
+        <!-- Twitter -->
+        <a class="social-media bi-twitter"></a>
+    </footer>
+    <script src="src/assets/js/script.js"></script>
+</body>
+</html>
